@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>行政樓</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+	<style>
+	           body{
+	               font-family: 'Noto Sans TC', sans-serif;
+	           }
+	           .container{
+	               position: relative;
+	               height: 20em;
+	               width: 65em;
+	               overflow: hidden;
+	               background-color:rgba(255,255,255,0.5);
+	               border-radius: 30px;
+	               z-index: 1;
+	           }
+	           #click{
+	               background-color: aliceblue;
+	               height: auto;
+	               width: auto;
+	               color: black;
+	               font-weight: bold;
+	               font-size: 2em;
+	               position: absolute;
+	               top: 70%;
+	           }
+	           .animation{
+	               transition: height .3s;
+	           }
+	           .slideup{
+	               height: 0px !important;
+	           }
+	           #pic_text{
+	               position: absolute;
+	               top: 73%;
+	               left: 45%;
+	               background-color: #3c3c3c;
+	               height: 8vh;
+	               width: auto;
+	               color: white;
+	               font-weight: bold;
+	               font-size: 2.5em;
+	               margin: 0 auto;
+	               text-align: center;
+	               padding-left: 2%;
+	               padding-right: 2%;
+	               z-index: 2;
+	           }
+	           #con_text{
+	               position: relative;
+	               top: 50%;
+	               transform: translateY(-50%);
+	               padding: 5%;
+	           }
+	           #button{
+	               position: absolute;
+	               top: 42vh;
+	               left: 30%;
+	               height: 3em;
+	               width: 3em;
+	               background-color: bisque;
+	               border-radius: 50%;
+	               border-width: 5px;
+	               border-color: black;
+	               border-style: solid;
+	           }
+	           #button2{
+	               position: absolute;
+	               top: 52.5vh;
+	               left: 21.5%;
+	               height: 3em;
+	               width: 3em;
+	               background-color: bisque;
+	               border-radius: 50%;
+	               border-width: 5px;
+	               border-color: black;
+	               border-style: solid;
+	           }
+	           #button3{
+	               position: absolute;
+	               top: 60vh;
+	               left: 30%;
+	               height: 3em;
+	               width: 3em;
+	               background-color: bisque;
+	               border-radius: 50%;
+	               border-width: 5px;
+	               border-color: black;
+	               border-style: solid;
+	           }
+	           #button4{
+	               height: 1.3em;
+	               width: 1.3em;
+	               background-color: bisque;
+	               border-radius: 50%;
+	               border-width: 5px;
+	               border-color: black;
+	               border-style: solid;
+	               display: inline-grid;
+	           }
+	           #two{
+	               height: 90vh;
+	           }
+	</style>
+</head>
+<body class="subpage">
+	<!-- Header -->
+	<header id="header">
+		<img id="Logo_title" src="images/LogoTitle_NTCU.png">
+		<div class="logo">
+			<a href="index.html" style="font-weight: bold">國立台中教育大學 <span>新進教師資訊網</span></a>
+		</div><a href="#menu">Menu</a>
+	</header><!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">首頁</a></li>
+			<li><a href="K.html">求真樓</a></li>
+			<li><a href="A.html">行政樓</a></li>
+			<li><a href="L.html">圖書館</a></li>
+			<li><a href="B.html">教育樓</a></li>
+		</ul>
+	</nav>
+    <!-- One -->
+	<section class="wrapper style3" id="One" style="height: 25vh;">
+		<div class="inner">
+			<header class="align-center">
+				<p>行政樓</p>
+				<h2>行政樓</h2>
+			</header>
+		</div>
+	</section>
+    <!-- Two -->
+	<section id="two" style="background-image: url(images/%E8%83%8C%E6%99%AF01C.png);background-size: cover;">
+		<img src="images/%E8%A1%8C%E6%94%BF%E6%A8%93.png" style="display:block; margin:auto;height: 39vh;">
+		<div id='button'></div><br>
+		<div id='button2'></div><br>
+		<div id='button3'></div>
+		<div class='slideup' id="pic_text"></div>
+		<div class='container animation slideup' id='container'>
+			<div id="con_text"></div>
+		</div>
+	</section>
+	<div style="height: 10vh;">
+		<div id="click">
+			▶點擊
+			<div id="button4"></div>會顯示處室的詳細資料喔!
+		</div>
+	</div>
+    <!-- Three -->
+	<section class="wrapper style2" id="three">
+		<div class="inner">
+			<div class="box">
+				<div class="content">
+					<header class="align-center">
+						<p>行政樓</p>
+						<h2>行政樓</h2>
+					</header>
+					<p style="text-align: center">l Mentor-Mentee傳習系列活動起跑~<br>
+					l 107年度新進教師研習營已於9/17圓滿辦理完成。<br>
+					l 106年度新進教師研習營已於8/31圓滿辦理完成。<br>
+					l 104年度新進教師研習營已於9/10圓滿辦理完成。<br>
+					l 103年度新進教師研習營已於9/10圓滿辦理完成。<br>
+					l 102年度新進教師研習營已於9/2圓滿辦理完成。<br>
+					l 101年度新進教師研習營已於8/22、8/23圓滿辦理完成。<br></p>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- Footer -->
+	<footer id="footer">
+		<div class="copyright" style="color: antiquewhite">
+			&copy; 國立臺中教育大學 教務處教學發展中心 版權所有©2019<br>
+			Copyright©2019 Center of Teaching Development. All Rights Reserved.<br>
+			Design by 周秉學、蔡伃婷.
+		</div>
+	</footer>
+    <!-- Scripts -->
+	<script>
+	               let con = 0
+	               button = document.getElementById("button")
+	               button2 = document.getElementById('button2')
+	               button3 = document.getElementById('button3')
+	               con_text = document.getElementById("con_text")
+	               container = document.getElementById("container")
+	               pic_t = document.getElementById("pic_text")
+	               button.addEventListener('mouseover',slideup)
+	               button.addEventListener('mouseout',slidedown)
+	               button.addEventListener('click',sliderm)
+	               button2.addEventListener('mouseover',slideup2)
+	               button2.addEventListener('mouseout',slidedown)
+	               button2.addEventListener('click',sliderm2)
+	               button3.addEventListener('mouseover',slideup3)
+	               button3.addEventListener('mouseout',slidedown)
+	               button3.addEventListener('click',sliderm3)
+	               
+	               function slideup(){
+	                   con_text.innerText = "一、學校願景：創新經營、邁向卓越、永續發展1. 創新經營結合「大學自治」、「學術自主」及「新公共管理」之大學經營理念，賡續推動革新，以提昇行政效率及效能。行政是支援教學、研究及服務之體系，藉由創新經營的理念，透過行政運作以積極支持學術發展，落實學術的精神，開創自由、民主的校風，建立創新、自主與責任之典範。本校將本於上述創經營之理念，透過校院系所及學程之共同合作，致力於本校的領導作為、人力技術、團隊合作、組織運作及服務流程等創新，以提昇本校的組織文化之創新，以及經營管理之創新。2. 邁向卓越卓越大學是擁有高品質的制度，以帶領人員與團隊將計畫付諸實現的大學。卓越是植基於現有成果與利基，透過持續追求進步與發展之整合校院系所人力與資源之有效措施，本校在邁向卓越的理念上，係以提昇教學、研究及服務為主軸，以整合院系所及學程為策略，以邁向卓越為共同願景。3. 永續發展本校永續發展的理念包括三方面，分別為永續的教育及文化、永續的經費與資源，以及永續的校園環境。本校將發揮大學引領社會永續發展之作用，致力於建立永續的校園環境，以強化師師生的永續發展意識、知識和技能，發揮大學引領社會發展的示範作用，俾利於我國社會之永續發展。"
+	                   pic_t.innerText = "研究室"
+	                   pic_t.classList.remove('slideup')
+	                   container.classList.remove('slideup')
+	                   button.style.height = "3.2em"
+	                   button.style.width = "3.2em"
+	                   button.style.backgroundColor = "aquamarine"
+	                   button2.style.height = "3em"
+	                   button2.style.width = "3em"
+	                   button2.style.backgroundColor = "bisque"
+	                   button3.style.height = "3em"
+	                   button3.style.width = "3em"
+	                   button3.style.backgroundColor = "bisque"
+	               }
+	               
+	               function slideup2(){
+	                   con_text.innerText = '四、發展策略1. 學習領導學生是受教之主體,大學教師作為引領學生學習的領導者,領導範疇不僅限於班級,而是參與整個學校,以建立激勵學生有效學習的友善教育環境,達成大學培植人才之目標。是以,本校校院系所行政同仁與教師之作為係以提升學生學習成效為核心,以學院為中心,帶領系所跨系共同協力合作,將本校部分統籌經費分配並授權各學院依所屬系所之計畫與需求核定經費,給予系所更多教學與研究資源之支持,以培植學生學習與就業力,有助學生學習成效提升。2.知識管理本校善用知識管理分析重要校務問題,提升學校教學效能與研究產出質量,增強教職員工作知能和服務品質,增加知識儲存能力及創新能力,改善校務行政流程,幫助學校制定較佳的決策,創造教職員生價值願景、實質績效及形象美感。3. 社群建構本校以靈活創新之教學思維,協助學生發展讀書會與學習社群,培養批判思考、國際觀與溝通技能,獲致良好學習成果。本校也致力於跨院系所學程之合作,建立學術社群分享實務,結合不同專長教師共同合作,以發揮整合之成效。4. 產學研發本校致力於提供誘因與支持,為院系所學程創造有利產學研發的條件,鼓勵教與學的科技創新,以促進教育產業的創新發展。'
+	                   pic_t.innerText = "7F"
+	                   pic_t.classList.remove('slideup')
+	                   container.classList.remove('slideup')
+	                   button2.style.height = "3.2em"
+	                   button2.style.width = "3.2em"
+	                   button2.style.backgroundColor = "aquamarine"
+	                   button.style.height = "3em"
+	                   button.style.width = "3em"
+	                   button.style.backgroundColor = "bisque"
+	                   button3.style.height = "3em"
+	                   button3.style.width = "3em"
+	                   button3.style.backgroundColor = "bisque"
+	               }
+	           
+	               function slideup3(){
+	                   con_text.innerText = '4. 產學研發本校致力於提供誘因與支持,為院系所學程創造有利產學研發的條件,鼓勵教與學的科技創新,以促進教育產業的創新發展。'
+	                   pic_t.innerText = "師培中心"
+	                   pic_t.classList.remove('slideup')
+	                   container.classList.remove('slideup')
+	                   button3.style.height = "3.2em"
+	                   button3.style.width = "3.2em"
+	                   button3.style.backgroundColor = "aquamarine"
+	                   button.style.height = "3em"
+	                   button.style.width = "3em"
+	                   button.style.backgroundColor = "bisque"
+	                   button2.style.height = "3em"
+	                   button2.style.width = "3em"
+	                   button2.style.backgroundColor = "bisque"
+	               }
+	               function slidedown(){
+	                   if(con!=1){
+	                       pic_t.innerText = ""
+	                       pic_t.classList.add('slideup')
+	                       container.classList.add('slideup')
+	                       button.style.height = "3em"
+	                       button.style.width = "3em"
+	                       button.style.backgroundColor = "bisque"
+	                       button2.style.height = "3em"
+	                       button2.style.width = "3em"
+	                       button2.style.backgroundColor = "bisque"
+	                       button3.style.height = "3em"
+	                       button3.style.width = "3em"
+	                       button3.style.backgroundColor = "bisque"
+	                   }
+	                   con=0
+	               }
+	               function sliderm(){
+	                   container.classList.remove('slideup')
+	                   button.style.backgroundColor = "aquamarine"
+	                   button.style.height = "3.2em"
+	                   button.style.width = "3.2em"
+	                   con = 1
+	               }
+	               function sliderm2(){
+	                   container.classList.remove('slideup')
+	                   button2.style.backgroundColor = "aquamarine"
+	                   button2.style.height = "3.2em"
+	                   button2.style.width = "3.2em"
+	                   con = 1
+	               }
+	               function sliderm3(){
+	                   container.classList.remove('slideup')
+	                   button3.style.backgroundColor = "aquamarine"
+	                   button3.style.height = "3.2em"
+	                   button3.style.width = "3.2em"
+	                   con = 1
+	               }
+	</script> 
+	<script src="assets/js/jquery.min.js">
+	</script> 
+	<script src="assets/js/jquery.scrollex.min.js">
+	</script> 
+	<script src="assets/js/skel.min.js">
+	</script> 
+	<script src="assets/js/util.js">
+	</script> 
+	<script src="assets/js/main.js">
+	</script>
+</body>
+</html>

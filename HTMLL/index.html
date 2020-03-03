@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>新進教師資訊網</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/hover.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+	<style>
+	           body{
+	               font-family: 'Noto Sans TC', sans-serif;
+	           }
+	           img{
+	               opacity: 0.5;
+	               height: auto;
+	               max-width: 100%;
+	           }
+	           img:hover{
+	               opacity: 1.0;
+	           }
+	           #land{
+	               position: absolute;
+	               background-size: contain;
+	               opacity: 1;
+	               height: 105vh;
+	               left: 0.5%;
+	           }
+	           #click{
+	               background-color: aliceblue;
+	               max-width: auto;
+	               color: black;
+	               font-size: 2.5vh;
+	               font-weight: bold;
+	               position: absolute;
+	               left: 15%;
+	               bottom: 18%;
+	           }
+	           #container{
+	               position: relative;
+	               top: 30%;
+	               left: 55%;
+	               height: 40em;
+	               max-width: 40em;
+	               overflow: hidden;
+	           }
+	           #pic{
+	               height: 30vh;
+	               max-width: auto;
+	           }
+	           #pic_text{
+	               position: relative;
+	               top: 5%;
+	               background-color: #3c3c3c;
+	               height: 8vh;
+	               max-width: 10vw;
+	               color: white;
+	               font-weight: bold;
+	               font-size: 2.5em;
+	               margin: 0 auto;
+	           }
+	           #download{
+	               position: relative;
+	               top: 5%;
+	               background-color: white;
+	               height: 5vh;
+	               max-width: 8vw;
+	               color: black;
+	               font-weight: bold;
+	               font-size: 1.5em;
+	               margin: 0 auto;
+	           }
+	</style>
+</head>
+<body>
+	<!-- Header -->
+	<header id="header">
+		<img id="Logo_title" src="images/LogoTitle_NTCU.png">
+		<div class="logo">
+			<a href="index.html" style="font-weight: bold">國立台中教育大學 <span>新進教師資訊網</span></a>
+		</div><a href="#menu">Menu</a>
+	</header>
+    <!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">首頁</a></li>
+			<li><a href="K.html">求真樓</a></li>
+			<li><a href="A.html">行政樓</a></li>
+			<li><a href="L.html">圖書館</a></li>
+			<li><a href="B.html">教育樓</a></li>
+		</ul>
+	</nav>
+    <!-- Banner -->
+	<section class="banner full">
+		<article></article>
+		<div>
+			<img id="land" src="images/%E5%B3%B6%E5%B6%BC_%E6%B2%92%E6%9C%894%E5%A4%A7%E5%BB%BA%E7%AF%89.png"> <a href="K.html" id="K"><img onclick="javascript:window.location.href='K.html'" onmouseout="this.style.height='20.5vh'" onmouseover="this.style.height='21vh'" src="images/%E6%B1%82%E7%9C%9F%E6%A8%93_%E5%AD%97.png" style="height: 20.5vh;;position: absolute;top: 15.2%;left: 32.4%;"></a> <a href="L.html" id="L"><img onclick="javascript:window.location.href='L.html'" onmouseout="this.style.height='10vh'" onmouseover="this.style.height='10.5vh'" src="images/%E5%9C%96%E6%9B%B8%E9%A4%A8_%E5%AD%97.png" style="height: 10vh;;position: absolute;top: 37%;left: 36.4%;"></a> <a href="B.html" id="B"><img onclick="javascript:window.location.href='B.html'" onmouseout="this.style.height='8vh'" onmouseover="this.style.height='8.5vh'" src="images/%E6%95%99%E8%82%B2%E6%A8%93_%E5%AD%97.png" style="height: 8vh;;position: absolute;top: 68%;left: 43.5%;"></a> <a href="A.html" id="A"><img onclick="javascript:window.location.href='K.html'" onmouseout="this.style.height='8.2vh'" onmouseover="this.style.height='8.7vh'" src="images/%E8%A1%8C%E6%94%BF%E6%A8%93_%E5%AD%97.png" style="height: 8.2vh;;position: absolute;bottom: 14.6%;left: 36.2%;"></a>
+		</div>
+		<div id="click">
+			▶建築物可以點擊喔!!
+		</div>
+		<div id="container">
+			<img id="pic" src="images/%E6%B1%82%E7%9C%9F%E6%A8%93.png" style="opacity: 1.0;">
+			<div id="pic_text">
+				求真樓
+			</div>
+			<div id="download">
+				▶地圖下載
+			</div>
+		</div>
+	</section>
+    <!-- One -->
+	<section class="wrapper style2" id="one">
+		<div class="inner">
+			<div>
+				<div class="box">
+					<div class="image fit"><img alt="" src="images/%E8%A1%8C%E6%94%BF%E6%A8%93.png" style="opacity: 1.0;"></div>
+					<div class="content">
+						<header class="align-center">
+							<p>TEST</p>
+							<h2>TEST</h2>
+						</header>
+						<p>TEST</p>
+						<footer class="align-center">
+							<a class="button alt" href="#">Learn More</a>
+						</footer>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- Two -->
+	<section class="wrapper style3" id="two">
+		<div class="inner"></div>
+	</section>
+    <!-- Footer -->
+	<footer id="footer">
+		<div class="copyright" style="color: antiquewhite">
+			&copy; 國立臺中教育大學 教務處教學發展中心 版權所有©2019<br>
+			Copyright©2019 Center of Teaching Development. All Rights Reserved.<br>
+			Design by 周秉學、蔡伃婷.
+		</div>
+	</footer>
+    <!-- Scripts -->
+	<script type="text/javascript">
+	               function change()
+	               {
+	                  document.getElementById("data").style.display = ( document.getElementById("data").style.display != 'none' ? 'none' : 'block' );
+	               }
+	               
+	               K = document.getElementById("K")
+	               L = document.getElementById("L")
+	               B = document.getElementById("B")
+	               A = document.getElementById("A")
+	               pic = document.getElementById("pic")
+	               pic_t = document.getElementById("pic_text")
+	               K.addEventListener('mouseover',slideup)
+	               K.addEventListener('mouseout',slidedown)
+	               L.addEventListener('mouseover',slideup2)
+	               L.addEventListener('mouseout',slidedown)
+	               B.addEventListener('mouseover',slideup3)
+	               B.addEventListener('mouseout',slidedown)
+	               A.addEventListener('mouseover',slideup4)
+	               A.addEventListener('mouseout',slidedown)
+	               
+	               function slideup(){
+	                   pic.src = "images/求真樓.png"
+	                   pic_t.innerText = "求真樓"
+	               }
+	               
+	               function slideup2(){
+	                   pic.src = "images/圖書館.png"
+	                   pic_t.innerText = "圖書館"
+	               }
+	           
+	               function slideup3(){
+	                   pic.src = "images/教育樓.png"
+	                   pic_t.innerText = "教育樓"
+	               }
+	               function slideup4(){
+	                   pic.src = "images/行政樓.png"
+	                   pic_t.innerText = "行政樓"
+	               }
+	               
+	               function slidedown(){
+	               }
+	               
+	</script> 
+	<script src="assets/js/jquery.min.js">
+	</script> 
+	<script src="assets/js/jquery.scrollex.min.js">
+	</script> 
+	<script src="assets/js/skel.min.js">
+	</script> 
+	<script src="assets/js/util.js">
+	</script> 
+	<script src="assets/js/main.js">
+	</script>
+</body>
+</html>
