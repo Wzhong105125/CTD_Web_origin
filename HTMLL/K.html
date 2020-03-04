@@ -3,7 +3,7 @@
 <head>
 	<title>求真樓</title>
 	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="width=device-width, initial-scale=1 maximum-scale=1.0; user-scalable=0;"name="viewport">
 	<link href="assets/css/main.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
 	<style>
@@ -105,7 +105,35 @@
 	               border-color: black;
 	               border-style: solid;
 	               display: inline-grid;
-	           }
+			   }
+			   #one{
+				height: 25vh;
+			   }
+			   @media screen and (max-width: 1238px) {
+					#one{
+						height:20vh;
+					}
+				}
+				@media screen and (max-width: 736px) {
+					#one{
+						height:17vh;
+					}
+				}
+				@media screen and (max-width: 554px) {
+					#one{
+						height:13vh;
+					}
+				}
+				@media screen and (max-width: 454px) {
+					#one{
+						height:12vh;
+					}
+				}
+				@media screen and (max-width: 736px) {
+					header > #menu_text{
+						font-size:0.7em;
+					}
+				}
 	</style>
 </head>
 <body class="subpage">
@@ -127,7 +155,7 @@
 		</ul>
 	</nav>
     <!-- One -->
-	<section class="wrapper style3" id="One" style="height: 25vh;">
+	<section class="wrapper style3" id="one">
 		<div class="inner">
 			<header class="align-center">
 				<p>求真樓</p>
@@ -137,20 +165,25 @@
 	</section>
     <!-- Two -->
 	<section id="two" style="background-image: url(images/%E8%83%8C%E6%99%AF01C.png);background-size: cover;">
-		<img src="images/%E6%B1%82%E7%9C%9F%E6%A8%93.png" style="height: 90vh;">
-		<div id="button"></div><br>
-		<div id="button2"></div><br>
-		<div id="button3"></div>
+		<div id = "buiding">
+			<img src="images/%E6%B1%82%E7%9C%9F%E6%A8%93.png" style="width:auto; height:auto; max-width:100%; max-height:100%; padding:5px 0px;">
+			<div id="button"></div><br>
+			<div id="button2"></div><br>
+			<div id="button3"></div>
+			<div style="height: 10vh;">
+				<div id="click">
+					▶點擊
+					<div id="button4"></div>會顯示處室的詳細資料喔!
+				</div>
+			</div>
+		</div>
+		
+
 		<div class='slideup' id="pic_text"></div>
 		<div class='container animation slideup' id='container'>
 			<div id="con_text"></div>
 		</div>
-		<div style="height: 10vh;">
-			<div id="click">
-				▶點擊
-				<div id="button4"></div>會顯示處室的詳細資料喔!
-			</div>
-		</div>
+		
 	</section>
     <!-- Three -->
 	<section class="wrapper style2" id="three">
