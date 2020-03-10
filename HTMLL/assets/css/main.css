@@ -4,7 +4,6 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 /* Reset */
 
-
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -12,7 +11,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
 }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -46,6 +47,7 @@ body {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
 /* Containers */
 
 .container {
@@ -1191,17 +1193,17 @@ html {
 }
 @media screen and (max-width: 980px) {
 	html {
-		font-size: 12pt;
+		font-size: 11pt;
 	}
 }
 @media screen and (max-width: 736px) {
 	html {
-		font-size: 12pt;
+		font-size: 11pt;
 	}
 }
 @media screen and (max-width: 480px) {
 	html {
-		font-size: 12pt;
+		font-size: 11pt;
 	}
 }
 body {
@@ -2637,6 +2639,7 @@ table.alt tbody tr td {
 body.subpage {
 	padding-top: 3.25em;
 }
+
 @-moz-keyframes reveal-header {
 	0% {
 		top: -4em;
@@ -2694,9 +2697,37 @@ body.subpage {
 	opacity: 1;
 	height: inherit;
 	position: absolute;
-	top: 0;
-	left: 42%;
+	top: 0vw;
+	right:54vw;
 }
+@media screen and (max-width: 1238px) {
+	#header > #logo_title{
+		width :80%;
+		left:10vw;
+		
+	}
+}
+@media screen and (max-width: 736px) {
+	#header > #logo_title{
+		left: 10vw;
+		width :70%;
+		right:53vw;
+	}
+}
+@media screen and (max-width: 554px) {
+	#header > #logo_title{
+		left: 10vw;
+		width :60%;
+		right:52vw;
+	}
+}
+@media screen and (max-width: 454px) {
+	#header > #logo_title{
+		left: 28vw;
+		width :40%;
+	}
+}
+
 
 #header>.logo {
 	display: inline-block;
@@ -2740,7 +2771,7 @@ body.subpage {
 	#header>.logo a{
 		font-size: 1em;
 		left: 60%;
-		display:none;
+		
 	}
 }
 @media screen and (max-width: 480px) {
@@ -2755,6 +2786,10 @@ body.subpage {
 		left: 50%;
 	}
 }
+
+
+
+
 #header>.logo a:hover {
 	color: #888888;
 }
@@ -2804,10 +2839,12 @@ body.subpage {
 @media screen and (max-width: 736px) {
 	#header>a {
 		padding: 0 0.5em;
+		font-size:0.7em;
 	}
 	#header>a+a[href="#menu"]:last-child {
 		padding-left: 1em;
 		margin-left: 0.25em;
+		font-size:0.7em;
 	}
 	#header>a:last-child {
 		padding-right: 1em;
@@ -2838,8 +2875,9 @@ body.subpage {
 }
 @media screen and (max-width: 980px) {
 	body.subpage {
-		padding-top: 44px;
+		padding-top:44px;
 	}
+	
 	#header {
 		height: 44px;
 		line-height: 44px;
@@ -2851,6 +2889,9 @@ body.subpage {
 		font-size: 1em;
 	}
 }
+
+
+
 @media screen and (max-width: 480px) {
 	#header {
 		min-width: 320px;
@@ -3231,5 +3272,101 @@ body.is-loading .banner:after {
 	width:50%; 
 	border:null; 
 	z-index:1; 
-	position:relative;
+	position: relative;
+	border:red bold;
 }
+
+#explanation{
+	height :100%; 
+	width:40%; 
+	border: null;
+	z-index:2; 
+	position: relative;
+
+}
+
+/*con_text*/
+@media screen and (max-width: 1400px) {
+	#con_text{
+		font-size: 0.9em;
+	}
+}
+@media screen and (max-width: 1242px) {
+	#con_text{
+		font-size: 0.8em;
+	}
+}
+@media screen and (max-width: 768px) {
+	#con_text{
+		font-size: 0.7em;
+	}
+}
+@media screen and (max-width: 480px) {
+	#con_text{
+		font-size:0.5em;
+	}
+}
+
+/*pic_text*/
+
+@media screen and (max-width: 1920px) {
+	#pic_text{
+		font-size: 2.5em;
+	}
+}
+@media screen and (max-width: 1242px) {
+	#pic_text{
+		font-size: 2em;
+		top:auto;
+	}
+}
+@media screen and (max-width: 980px) {
+	#pic_text{
+		font-size: 2em;
+		top:1000px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#pic_text{
+		font-size: 1.75em;
+		top:auto;
+	}
+}
+@media screen and (max-width: 480px) {
+	#pic_text{
+		font-size:0.5em;
+	}
+}
+
+@media screen and (max-height: 1080px) {
+	#pic_text{
+		top:300px;
+	}
+}
+@media screen and (max-height: 768px) {
+	#pic_text{
+		top:300px;
+		font-size: 2em;;
+	}
+}
+
+/*button*/
+@media screen and (max-width: 980px) {
+	#button{
+		height: 4%;
+	    width: 6%;
+	}
+}
+@media screen and (max-width: 768px) {
+	#button{
+		height: 4%;
+	    width: 8%;
+	}
+}
+@media screen and (max-width: 480px) {
+	#button{
+		height: 4%;
+	    width: 10%;
+	}
+}
+

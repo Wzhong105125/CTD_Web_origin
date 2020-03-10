@@ -1,0 +1,333 @@
+/*
+			   @media screen and (max-width: 1520px) {
+					#button{
+						left:36.5%;
+					}
+				}
+			   @media screen and (max-width: 1452px) {
+					#button{
+						left:38%;
+					}
+				}
+			   @media screen and (max-width: 1386px) {
+					#button{
+						left:40%;
+					}
+				}
+				@media screen and (max-width: 1334px) {
+					#button{
+						left:42%;
+					}
+				}
+				@media screen and (max-width: 1280px) {
+					#button{
+						left:44%;
+					}
+				}
+			   @media screen and (max-width: 1238px) {
+					#button{
+						left:44%;
+					}
+				}
+				@media screen and (max-width: 1187px) {
+					#button{
+						left:47%;
+					}
+				}
+			  
+				@media screen and (max-width: 1126px) {
+					#button{
+						left:50%;
+					}
+				}
+				@media screen and (max-width: 1064px) {
+					#button{
+						left:51%;
+					}
+				}
+				@media screen and (max-width: 1024px) {
+					#button{
+						left:55%;
+					}
+				}
+				@media screen and (max-width: 980px) {
+					#button{
+						left:58%;
+						height: 2.8em;
+	               		width: 2.8em;
+					}
+				}@media screen and (max-width: 910px) {
+					#button{
+						left:62%;
+					}
+				}
+				@media screen and (max-width: 867px) {
+					#button{
+						left:65%;
+					}
+				}@media screen and (max-width: 811px) {
+					#button{
+						left:68%;
+					}
+				}@media screen and (max-width: 785px) {
+					#button{
+						left:73%;
+					}
+				}
+				@media screen and (max-width: 736px) {
+					#button{
+						left:76%;
+					}
+				}
+				@media screen and (max-width: 701px) {
+					#button{
+						left:82%;
+					}
+				}
+				@media screen and (max-width: 650px) {
+					#button{
+						left:87%;
+					}
+				}
+				@media screen and (max-width: 610px) {
+					#button{
+						left:90%;
+					}
+				}
+				@media screen and (max-width: 590px) {
+					#button{
+						left:95%;
+					}
+				}
+				@media screen and (max-width:560px) {
+					#button{
+						left:110%
+					}
+				}
+				@media screen and (max-width: 554px) {
+					#button{
+						left:110%;
+					}
+				}
+*/
+ @media screen and (max-width: 1520px) {
+					#button2{
+						left:31.5%;
+					}
+				}
+			   @media screen and (max-width: 1452px) {
+					#button2{
+						left:33%;
+					}
+				}
+			   @media screen and (max-width: 1386px) {
+					#button2{
+						left:35%;
+					}
+				}
+				@media screen and (max-width: 1334px) {
+					#button2{
+						left:36%;
+					}
+				}
+				@media screen and (max-width: 1280px) {
+					#button2{
+						left:37%;
+					}
+				}
+			   @media screen and (max-width: 1238px) {
+					#button2{
+						left:39%;
+					}
+				}
+				@media screen and (max-width: 1187px) {
+					#button2{
+						left:41%;
+					}
+				}
+			  
+				@media screen and (max-width: 1126px) {
+					#button2{
+						left:44%;
+					}
+				}
+				@media screen and (max-width: 1064px) {
+					#button2{
+						left:46%;
+					}
+				}
+				@media screen and (max-width: 1024px) {
+					#button2{
+						left:48%;
+					}
+				}
+				@media screen and (max-width: 980px) {
+					#button2{
+						left:51%;
+						height: 2.8em;
+	               		width: 2.8em;
+					}
+				}@media screen and (max-width: 910px) {
+					#button2{
+						left:52%;
+					}
+				}
+				@media screen and (max-width: 867px) {
+					#button2{
+						left:55%;
+					}
+				}@media screen and (max-width: 811px) {
+					#button2{
+						left:58%;
+					}
+				}@media screen and (max-width: 785px) {
+					#button2{
+						left:64%;
+					}
+				}
+				@media screen and (max-width: 736px) {
+					#button2{
+						left:69%;
+					}
+				}
+				@media screen and (max-width: 701px) {
+					#button2{
+						left:72%;
+					}
+				}
+				@media screen and (max-width: 650px) {
+					#button2{
+						left:75%;
+					}
+				}
+				@media screen and (max-width: 610px) {
+					#button2{
+						left:80%;
+					}
+				}
+				@media screen and (max-width: 554px) {
+					#button2{
+						left:85%;
+					}
+				}
+				@media screen and (max-width:570px) {
+					#button2{
+						left:87%;
+					}
+				}
+				@media screen and (max-width: 515px) {
+					#button2{
+						left:110%;
+					}
+				}
+/*
+@media screen and (max-width: 1520px) {
+					#button3{
+						left:31.5%;
+					}
+				}
+			   @media screen and (max-width: 1452px) {
+					#button3{
+						left:33%;
+					}
+				}
+			   @media screen and (max-width: 1386px) {
+					#button3{
+						left:35%;
+					}
+				}
+				@media screen and (max-width: 1334px) {
+					#button3{
+						left:36%;
+					}
+				}
+				@media screen and (max-width: 1280px) {
+					#button3{
+						left:37%;
+					}
+				}
+			   @media screen and (max-width: 1238px) {
+					#button3{
+						left:39%;
+					}
+				}
+				@media screen and (max-width: 1187px) {
+					#button3{
+						left:41%;
+					}
+				}
+			  
+				@media screen and (max-width: 1126px) {
+					#button3{
+						left:44%;
+					}
+				}
+				@media screen and (max-width: 1064px) {
+					#button3{
+						left:46%;
+					}
+				}
+				@media screen and (max-width: 1024px) {
+					#button3{
+						left:48%;
+					}
+				}
+				@media screen and (max-width: 980px) {
+					#button3{
+						left:51%;
+						height: 2.8em;
+	               		width: 2.8em;
+					}
+				}@media screen and (max-width: 910px) {
+					#button3{
+						left:52%;
+					}
+				}
+				@media screen and (max-width: 867px) {
+					#button3{
+						left:55%;
+					}
+				}@media screen and (max-width: 811px) {
+					#button3{
+						left:58%;
+					}
+				}@media screen and (max-width: 785px) {
+					#button3{
+						left:64%;
+					}
+				}
+				@media screen and (max-width: 736px) {
+					#button3{
+						left:69%;
+					}
+				}
+				@media screen and (max-width: 701px) {
+					#button3{
+						left:72%;
+					}
+				}
+				@media screen and (max-width: 650px) {
+					#button3{
+						left:75%;
+					}
+				}
+				@media screen and (max-width: 610px) {
+					#button3{
+						left:80%;
+					}
+				}
+				@media screen and (max-width: 554px) {
+					#button3{
+						left:85%;
+					}
+				}
+				@media screen and (max-width:570px) {
+					#button3{
+						left:87%;
+					}
+				}
+				@media screen and (max-width: 515px) {
+					#button3{
+						left:110%;
+					}
+				}
