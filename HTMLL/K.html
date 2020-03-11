@@ -13,15 +13,24 @@
 	           }
 	           .container{
 	               position: absolute;
-	               top: 45%;
-	               left: 55%;
-	               height: 60%;
-	               width: 40%;
+	               top: 23em;
+	               left: 50%;
+	               height: auto;
+	               width: auto;
 	               overflow: hidden;
 	               background-color:rgba(255,255,255,0.5);
 	               border-radius: 30px;
 				   z-index: 1;
-	           }
+	           }@media screen and (max-width: 980px) {
+					.container{
+						top:16.5em;
+					}
+				}
+			   @media screen and (max-width: 736px) {
+					.container{
+						top:16.5em;
+					}
+				}
 	           .animation{
 	               transition: height .3s;
 	           }
@@ -63,14 +72,25 @@
 	               padding-right: 2%;
 				   z-index: 3;
 				   float: left;
-				   top:40%;
-	           }
+			   }
+			   @media screen and (max-width: 980px) {
+					#pic_text{
+						top:7.2em;
+					}
+				}
+			   @media screen and (max-width: 736px) {
+					#pic_text{
+						top:7em;
+					}
+				}
 	           #con_text{
 	               position: relative;
 	               top: 100px;
 	               transform: translateY(-50%);
-	               padding: 5%;
+				   padding: 5%;
+				   margin:3vw 0;
 			   }
+			   
 			
 	           #button{
 	               position: absolute;
@@ -158,7 +178,7 @@
 	<header id="header">
 		<img id="Logo_title" src="images/LogoTitle_NTCU.png">
 		<div class="logo">
-			<a href="index.html" style="font-weight: bold">國立臺中教育大學 <span>新進教師資訊網</span></a>
+			<a href="index.html" style="font-weight: bold">新進教師資訊網 <span></span></a>
 		</div><a href="#menu"></a>
 	</header>
     <!-- Nav -->
@@ -287,7 +307,7 @@
 	               }
 	           
 	               function slideup3(){
-	                   con_text.innerText = '4. 產學研發本校致力於提供誘因與支持,為院系所學程創造有利產學研發的條件,鼓勵教與學的科技創新,以促進教育產業的創新發展。'
+	                   con_text.innerText = "4. 產學研發本校致力於提供誘因與支持,為院系所學程創造有利產學研發的條件,鼓勵教與學的科技創新,以促進教育產業的創新發展。"
 	                   pic_t.innerText = "師培中心"
 	                   pic_t.classList.remove('slideup')
 	                   container.classList.remove('slideup')

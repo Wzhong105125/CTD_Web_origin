@@ -128,10 +128,12 @@ body {
 		width: 90%;
 	}
 }
+
 @media screen and (max-width: 736px) {
 	.container.\31 25\25 {
 		width: 100%;
 		max-width: 112.5%;
+		max-width: 50%;
 		min-width: 90%;
 	}
 	.container.\37 5\25 {
@@ -144,9 +146,10 @@ body {
 		width: 22.5%;
 	}
 	.container {
-		width: 90% !important;
+		width: auto !important;
 	}
 }
+
 @media screen and (max-width: 480px) {
 	.container.\31 25\25 {
 		width: 100%;
@@ -3323,13 +3326,12 @@ body.is-loading .banner:after {
 @media screen and (max-width: 980px) {
 	#pic_text{
 		font-size: 2em;
-		top:1000px;
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 763px) {
 	#pic_text{
 		font-size: 1.75em;
-		top:auto;
+
 	}
 }
 @media screen and (max-width: 480px) {
