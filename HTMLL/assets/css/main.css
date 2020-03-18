@@ -3279,6 +3279,22 @@ body.is-loading .banner:after {
 	border:red bold;
 }
 
+#buidingA{
+	height:100%;
+	width:100%;
+	border: null;
+	z-index: 1;
+	position: relative;
+}
+
+#buidingB{
+	height:100%;
+	width:55%;
+	border: null;
+	z-index: 1;
+	position: relative;
+}
+
 #explanation{
 	height :100%; 
 	width:40%; 

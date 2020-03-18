@@ -29,20 +29,33 @@
 	           }
 	           #pic_text{
 	               position: absolute;
-	               top: 34%;
+	               top: 40%;
 	               left: 71.5%;
 	               background-color: #3c3c3c;
-	               height: 8vh;
+	               height: auto;
 	               width: auto;
 	               color: white;
 	               font-weight: bold;
-	               font-size: 2.5em;
+
 	               margin: 0 auto;
 	               text-align: center;
 	               padding-left: 2%;
 	               padding-right: 2%;
-	               z-index: 2;
-	           }
+				   z-index: 2;
+				   float:left;
+			   }
+			   @media screen and (max-width: 980px) {
+					#pic_text{
+						top:38%;
+						left:71.5%;
+					}
+				}
+			   @media screen and (max-width: 736px) {
+					#pic_text{
+						top:36%;
+						left: 71.5%;
+					}
+				}
 	           #con_text{
 	               position: relative;
 	               top: 50%;
@@ -52,18 +65,17 @@
 	           #click{
 	               background-color: aliceblue;
 	               height: auto;
-	               width: auto;
+	               width: 480px;
 	               color: black;
 	               font-weight: bold;
 	               font-size: 2em;
-	               position: absolute;
+	               position: relative;
 	               left: 13%;
-	               top: 106%;
+	               top: -27%;
 	           }
 	           #button{
 	               position: absolute;
-	               width: 16vw;
-	               top: 76vh;
+	               top: 30%;
 	               left: 6%;
 	               height: 3em;
 	               width: 3em;
@@ -71,12 +83,13 @@
 	               border-radius: 50%;
 	               border-width: 5px;
 	               border-color: black;
-	               border-style: outset;
+				   border-style: outset;
+				   float: left;
+				   z-index: 4;
 	           }
 	           #button2{
 	               position: absolute;
-	               width: 16vw;
-	               top: 76vh;
+	               top: 40%;
 	               left: 37%;
 	               height: 3em;
 	               width: 3em;
@@ -84,20 +97,23 @@
 	               border-radius: 50%;
 	               border-width: 5px;
 	               border-color: black;
-	               border-style: outset;
+				   border-style: outset;
+				   float: left;
+				   z-index: 4;
 	           }
 	           #button3{
 	               position: absolute;
-	               width: 10vw;
-	               top: 65.3vh;
-	               left: 33%;
+	               top: 35%;
+	               left: 70%;
 	               height: 3em;
 	               width: 3em;
 	               background-color: bisque;
 	               border-radius: 50%;
 	               border-width: 5px;
 	               border-color: black;
-	               border-style: outset;
+				   border-style: outset;
+				   float: left;
+				   z-index: 4;
 	           }
 	           #button4{
 	               height: 1.3em;
@@ -123,7 +139,7 @@
 		<img id="Logo_title" src="images/LogoTitle_NTCU.png">
 		<div class="logo">
 			<a href="index.html" style="font-weight: bold">國立台中教育大學 <span>新進教師資訊網</span></a>
-		</div><a href="#menu">Menu</a>
+		</div><a href="#menu"></a>
 	</header>
     <!-- Nav -->
 	<nav id="menu">
@@ -146,19 +162,24 @@
 	</section>
     <!-- Two -->
 	<section id="two" style="background-image: url(images/%E8%83%8C%E6%99%AF01C.png);background-size: cover;">
-		<img src="images/%E6%95%99%E8%82%B2%E6%A8%93.png" style="height: 70vh;width:56vw;">
+	<div id="buidingB">
+		<img src="images/%E6%95%99%E8%82%B2%E6%A8%93.png" style="width:auto;height:auto;max-width: 100%;max-height: 100%;">
 		<div id='button'></div><br>
 		<div id='button2'></div><br>
 		<div id='button3'></div>
-		<div class='slideup' id="pic_text"></div>
-		<div class='container animation slideup' id='container'>
-			<div id="con_text"></div>
-		</div>
+				
 		<div style="height: 10vh;">
 			<div id="click">
 				▶點擊
 				<div id="button4"></div>會顯示處室的詳細資料喔!
 			</div>
+		</div>				
+	</div>	
+		
+
+		<div class='slideup' id="pic_text"></div>
+		<div class='container animation slideup' id='container'>
+			<div id="con_text"></div>
 		</div>
 	</section>
     <!-- Three -->
